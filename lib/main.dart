@@ -43,7 +43,7 @@ class _TodoPageState extends State<TodoPage> {
                 //Add names here
                 Text('PJ'),
                 Text('Andales')
-                
+                Text('Jarod')
               ],
             ),
       ),
