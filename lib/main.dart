@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:new_project/todo_model.dart';
 import 'todo_service.dart';
 
-
 void main() {
   runApp(const MyApp());
 }
@@ -28,27 +27,22 @@ class TodoPage extends StatefulWidget {
 }
 
 class _TodoPageState extends State<TodoPage> {
- 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Todos'),
-      ),
-      body:  Padding(
+      appBar: AppBar(title: const Text('Todos')),
+      body: Padding(
         padding: const EdgeInsets.all(20.0),
         child: Column(
-              children: [
-                //Add names here
+          children: [
+            //Add names here
+            Text('PJ'),
+            Text('Andales'),
                 Text('PJ'),
-                Text('Andales'),
-                Text('PJ')
-                
-              ],
-            ),
+            Text('Raph'),
+          ],
+        ),
       ),
-     
     );
   }
 }
