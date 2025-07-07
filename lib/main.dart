@@ -39,9 +39,11 @@ class _TodoPageState extends State<TodoPage> {
             Text('PJ'),
             Text('Andales'),
                 Text('PJ'),
-            Text('Raph'),
-          ],
-        ),
+                Text('Andales'),
+                Text('dodong Judd'),
+                
+              ],
+            ),
       ),
     );
   }
