@@ -36,9 +36,9 @@ class _TodoPageState extends State<TodoPage> {
         child: Column(
           children: [
             //Add names here
-            Text('PJ'),
-            Text('Andales'),
-            Text('Raph'),
+            Text('Deniella'),
+            Text('Allyssa'),
+            Text('Ching'),
           ],
         ),
       ),
