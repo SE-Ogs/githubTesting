@@ -42,7 +42,8 @@ class _TodoPageState extends State<TodoPage> {
               children: [
                 //Add names here
                 Text('PJ'),
-                Text('Andales')
+                Text('Andales'),
+                Text('dodong Judd'),
                 
               ],
             ),
